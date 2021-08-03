@@ -1,0 +1,113 @@
+#
+# COLOR TOKENS
+# Use these tokens to set a color.
+# For reference, see http://hslpicker.com/
+#
+# To make things a little simpler for your team,
+# utilize both global & local tokens for colors.
+#
+
+aliases:
+  nordic_teal:
+    value: "181, 100%"
+  white:
+    value: "#fff"
+props:
+  # Primary app color
+  primary:
+    value: "hsl({!nordic_teal}, 25%)"
+    category: color_group_1
+  secondary:
+    value: "hsl(201, 87%, 18%)"
+    category: color_group_1
+
+  color_navy_blue:
+    value: "hsl(201, 87%, 18%)"
+    category: color_group_2
+
+  # Nordic Teal
+  color_nordic_teal:
+    value: "hsl({!nordic_teal}, 25%)"
+    category: color_group_2
+  color_nordic_teal_dark:
+    value: "hsl({!nordic_teal}, 20%)"
+    category: color_group_2
+  color_nordic_teal_lightest:
+    value: "hsl(170, 50%, 90%)"
+    category: color_group_2
+
+  # Clear Blue
+  color_clear_blue:
+    value: "hsl(201, 87%, 35%)"
+    category: color_group_3
+  color_clear_blue_dark:
+    value: "hsl(201, 87%, 25%)"
+    category: color_group_3
+  color_clear_purple:
+    value: "hsl(270, 54%, 35%)"
+    category: color_group_3
+  color_clear_blue_light:
+    value: "hsl(201, 86%, 80%)"
+    category: color_group_3
+  color_clear_blue_lightest:
+    value: "hsl(201, 87%, 93%)"
+    category: color_group_3
+
+  # Calm Grey
+  color_calm_grey:
+    value: "hsl(202, 10%, 63%)"
+    category: color_group_4
+  color_calm_grey_dark:
+    value: "hsl(203, 10%, 45%)"
+    category: color_group_4
+  color_calm_grey_darker:
+    value: "hsl(204, 10%, 30%)"
+    category: color_group_4
+  color_calm_grey_darkest:
+    value: "hsl(202, 11%, 15%)"
+    category: color_group_4
+  color_calm_grey_light:
+    value: "hsl(202, 10%, 79%)"
+    category: color_group_4
+  color_calm_grey_lighter:
+    value: "hsl(203, 10%, 89%)"
+    category: color_group_4
+  color_calm_grey_lightest:
+    value: "hsl(210, 10%, 96%)"
+    category: color_group_4
+
+  # Happy Green
+  color_happy_green:
+    value: "hsl(110, 50%, 40%)"
+    category: color_group_5
+  color_happy_green_lightest:
+    value: "hsl(120, 77%, 95%)"
+    category: color_group_5
+
+  # Warning Yellow
+  color_warning_yellow:
+    value: "hsl(43, 100%, 48%)"
+    category: color_group_6
+  color_warning_yellow_lightest:
+    value: "hsl(43, 100%, 92%)"
+    category: color_group_6
+
+  # Error Red
+  color_error_red:
+    value: "hsl(353, 65%, 47%)"
+    category: color_group_7
+  color_error_red_lightest:
+    value: "hsl(351, 100%, 96%)"
+    category: color_group_7
+
+  # Info Blue
+  color_info_blue:
+    value: "hsl(210, 53%, 47%)"
+    category: color_group_7
+  color_info_blue_lightest:
+    value: "hsl(210, 100%, 95%)"
+    category: color_group_7
+
+global:
+  type: color
+  category: color
