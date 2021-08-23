@@ -72,36 +72,3 @@
   min-width: 0;
   max-width: 100%;
 }
-
-/*
-MEDIA QUERIES MIXINS
-Usage: @include for-phone-only {}
-*/
-
-@mixin for-phone-only {
-  @media (max-width: 767px) { @content; }
-}
-
-// sm media in bootstrap layout
-@mixin for-phone-landscape-up {
-  @media (min-width: 576px) { @content; }
-}
-
-// md media in bootstrap layout
-@mixin for-tablet-portrait-up {
-  @media (min-width: 768px) { @content; }
-}
-
-// lg media in bootstrap layout
-@mixin for-tablet-landscape-up {
-  @media (min-width: 992px) { @content; }
-}
-
-// xl media in bootstrap layout
-@mixin for-desktop-up {
-  @media (min-width: 1200px) { @content; }
-}
-
-@mixin for-big-desktop-up {
-  @media (min-width: 1440px) { @content; }
-}
