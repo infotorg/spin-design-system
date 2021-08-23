@@ -1,0 +1,52 @@
+// --- BootstrapVue custom SCSS variables ---
+
+// Documentation is available here: https://bootstrap-vue.org/docs/reference/theming
+// You will find the complete list of Bootstrap’s variables in node_modules/bootstrap-vue/src/_variables.scss.
+// Copy and paste variables as needed, modify their values, and remove the !default flag.
+// If a variable has already been assigned, then it won’t be re-assigned by the default values in Bootstrap and BootstrapVue.
+// Also see Bootstrap theming documentation: https://getbootstrap.com/docs/4.5/getting-started/theming/
+
+// Color system
+$primary: $color-nordic-teal;
+$secondary: $color_navy_blue;
+$success: $color-happy-green;
+$info: $color-info-blue;
+$warning: $color-warning-yellow;
+$danger: $color-error-red;
+//$light: #f8f9fa;
+//$dark: #343a40;
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: #e0e4e6;
+
+// Links
+//
+// Style anchor elements.
+$link-color: $color-clear-blue;
+$link-decoration: underline;
+$link-hover-color: $color-clear-blue-dark;
+// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
+//$emphasized-link-hover-darken-percentage: 15% !default;
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-size-lg: $font_size_l;
+$font-size-sm: $font_size_s;
+
+$line-height-base: 1.4;
+
+$h1-font-size: $font_size_h1;
+$h2-font-size: $font_size_h2;
+$h3-font-size: $font_size_h3;
+$h4-font-size: $font_size_h4;
+$h5-font-size: $font_size_h5;
+$h6-font-size: $font_size_h6;
+
+$headings-margin-bottom: 1rem;
+$headings-font-family: $font_heading;
+$headings-color: $color_navy_blue;

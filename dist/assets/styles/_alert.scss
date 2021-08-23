@@ -1,0 +1,46 @@
+.alert {
+    border: none;
+    display: flex;
+    border-radius: 0;
+    padding: 16px 8px;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: $shadow_s;
+
+    p {
+        color: black;
+        margin-bottom: 0;
+    }
+
+    &-info {
+        border-left: 8px solid $info;
+
+        &.bg-colorized {
+            background-color: rgba($info, .15);
+        }
+    }
+
+    &-error {
+        border-left: 8px solid $danger;
+
+        &.bg-colorized {
+            background-color: rgba($danger, .15);
+        }
+    }
+
+    &-warning {
+        border-left: 8px solid $warning;
+
+        &.bg-colorized {
+            background-color: rgba($warning, .15);
+        }
+    }
+
+    &-success {
+        border-left: 8px solid $success;
+
+        &.bg-colorized {
+            background-color: rgba($success, .15);
+        }
+    }
+}
