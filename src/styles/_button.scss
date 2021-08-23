@@ -1,18 +1,18 @@
-$btn-primary-hover: $color_nordic_teal_dark;
-$btn-primary-disabled: $color_calm_grey_light;
-$btn-primary-pressed: $color_navy-blue;
+$color-btn-primary-hover: $color-nordic-teal-dark;
+$color-btn-primary-disabled: $color-calm-grey-light;
+$color-btn-primary-pressed: $secondary;
 
-$btn-secondary: #ffffff;
-$btn-secondary-hover: $color_clear_blue_lightest;
-$btn-secondary-disabled: $color_calm_grey_light;
-$btn-secondary-pressed: $color_navy-blue;
+$color-btn-secondary: #ffffff;
+$color-btn-secondary-hover: $color_clear_blue_lightest;
+$color-btn-secondary-disabled: $color_calm_grey_light;
+$color-btn-secondary-pressed: $color_navy-blue;
 
-$btn-danger: #9a3333;
-$btn-danger-hover: #7D1A1A;
-$btn-danger-pressed: #7D1A1A;
+$color-btn-danger: #9a3333;
+$color-btn-danger-hover: #7D1A1A;
+$color-btn-danger-pressed: #7D1A1A;
 
-$btn-link: #2674a0;
-$btn-link-hover: #152935;
+$color-btn-link: #2674a0;
+$color-btn-link-hover: #152935;
 
 button {
   border: 0;
@@ -20,18 +20,20 @@ button {
 }
 
 .btn {
-  opacity: 1 !important;
   font-size: $font_size_m;
   font-weight: normal;
   padding: 0 12px;
-  height: 40px;
   line-height: 2.4;
+
   svg {
     height: 24px;
     width: 24px;
   }
+
   span {
-    padding: 0 4px;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
   }
 
   // When the button size is small (size="sm")
@@ -39,6 +41,7 @@ button {
     height: 32px;
     line-height: 1.6;
     padding: 0 12px;
+
     svg {
       height: 20px;
       width: 20px;
@@ -49,6 +52,7 @@ button {
   &-lg {
     height: 48px;
     padding: 0 16px;
+
     svg {
       height: 28px;
       width: 28px;
@@ -59,70 +63,76 @@ button {
     color: white;
 
     &:hover {
-      background: $btn-primary-hover;
-      border: 1px solid $btn-primary-hover;
+      background: $color-btn-primary-hover;
+      border: 1px solid $color-btn-primary-hover;
     }
 
     &:not(:disabled):not(.disabled):active {
-      background: red;
-      border: 1px solid $btn-primary-hover;
+      background: $color-btn-primary-hover;
+      border: 1px solid $color-btn-primary-hover;
     }
 
     &:active,
     &:focus {
-      background: $btn-primary-pressed;
-      border: 1px solid $btn-primary-pressed;
+      background: $color-btn-primary-pressed;
+      border: 1px solid $color-btn-primary-pressed;
       box-shadow: none;
     }
 
-    &:disabled,
-    &.disabled {
+    &:disabled {
       pointer-events: none;
-      background-color: $btn-primary-disabled !important;
-      border: 1px solid $btn-primary-disabled !important;
+      background: $color-btn-primary-disabled;
+      border: 1px solid $color-btn-primary-disabled;
     }
   }
 
   &-secondary {
     color: $secondary;
-    background-color: $btn-secondary;
+    background-color: $color-btn-secondary;
     border: 1px solid $secondary;
+
+    svg path {
+      fill: $secondary;
+    }
 
     &:hover {
       color: $secondary;
-      background: $btn-secondary-hover;
+      background: $color-btn-secondary-hover;
     }
 
     &:active,
     &:focus {
       color: white;
-      background: $btn-secondary-pressed;
+      background: $color-btn-secondary-pressed;
       box-shadow: none;
+
+      svg path {
+        fill: white !important;
+      }
     }
 
-    &:disabled,
-    &.disabled {
+    &:disabled {
       pointer-events: none;
       color: $secondary;
-      background-color: $btn-secondary-disabled !important;
-      border: 1px solid $btn-secondary-disabled !important;
+      background: $color-btn-secondary-disabled;
+      border: 1px solid $color-btn-secondary-disabled;
     }
 
     &.active {
       color: white;
-      background: $btn-secondary-pressed !important;
-      border: 1px solid $btn-secondary-pressed !important;
+      background: $color-btn-secondary-pressed !important;
+      border: 1px solid $color-btn-secondary-pressed !important;
     }
   }
 
   &-feedback {
-    background: linear-gradient(209deg, #7028b7 35%, #f52881);
+    background: linear-gradient(209deg, #3984C2 35%, #0C71A7);
     border: none !important;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     color: white;
 
     &:hover {
-      background: linear-gradient( 209deg, #7028b7 45%, #f52881);
+      background: linear-gradient(209deg, #3984C2 35%, #085077);
       color: white;
     }
 
@@ -135,40 +145,40 @@ button {
 
   &-danger {
     color: white;
-    background-color: $btn-danger;
-    border-color: $btn-danger;
+    background-color: $color-btn-danger;
+    border-color: $color-btn-danger;
 
     &:hover {
       color: white;
-      background: $btn-danger-hover;
-      border: 1px solid $btn-danger-hover;
+      background: $color-btn-danger-hover;
+      border: 1px solid $color-btn-danger-hover;
     }
 
     &:not(:disabled):not(.disabled):active {
       color: white;
-      background: $btn-danger-pressed;
-      border: 1px solid $btn-danger-pressed;
+      background: $color-btn-danger-pressed;
+      border: 1px solid $color-btn-danger-pressed;
     }
 
     &:active,
     &:focus {
       color: white;
-      background: $btn-danger-pressed;
-      border: 1px solid $btn-danger-pressed;
+      background: $color-btn-danger-pressed;
+      border: 1px solid $color-btn-danger-pressed;
     }
 
     &:disabled {
-      background: $btn-primary-disabled;
-      border: 1px solid $btn-primary-disabled;
+      background: $color-btn-primary-disabled;
+      border: 1px solid $color-btn-primary-disabled;
     }
   }
 
   &-link {
-    color: $btn-link;
+    color: $color-btn-link;
     text-decoration: underline;
 
     &:hover {
-      color: $btn-link-hover;
+      color: $color-btn-link-hover;
     }
   }
 }
@@ -187,5 +197,17 @@ button {
   // When button has only one icon
   &-lg-icon-only {
     padding: 0 10px;
+  }
+}
+
+
+// Overwriting styles for b-overlay
+.bg-light {
+  background-color: $color-calm-grey-lighter !important;
+}
+
+.position-absolute {
+  .spinner-border {
+    display: none;
   }
 }
