@@ -8,72 +8,127 @@
 #
 
 aliases:
-  nordic_teal:
+  nordic_teal_hs:
     value: "181, 100%"
+  clear_blue_hs:
+    value: "201, 87%"
+  calm_grey_hs:
+    value: "202, 10%"
   white:
-    value: "#fff"
+    value: "hsl(0, 0%, 100%)"
+  navy_blue:
+    value: "hsl(201, 87%, 18%)"
 props:
   # Primary app color
   primary:
-    value: "hsl({!nordic_teal}, 25%)"
+    value: "hsl({!nordic_teal_hs}, 25%)"
     category: color_group_1
   secondary:
-    value: "hsl(201, 87%, 18%)"
+    value: "{!navy_blue}"
     category: color_group_1
 
   color_navy_blue:
-    value: "hsl(201, 87%, 18%)"
+    value: "{!navy_blue}"
     category: color_group_2
 
+  #-------
   # Nordic Teal
-  color_nordic_teal:
-    value: "hsl({!nordic_teal}, 25%)"
+  #-------
+
+  # Nordic Teal - KEY colours with darker and lighter shades
+
+  # Previous name: color_nordic_teal_dark:
+  color_nordic_teal_200:
+    value: "hsl({!nordic_teal_hs}, 20%)"
     category: color_group_2
-  color_nordic_teal_dark:
-    value: "hsl({!nordic_teal}, 20%)"
+  # KEY colour
+  color_nordic_teal_250:
+    value: "hsl({!nordic_teal_hs}, 25%)"
     category: color_group_2
-  color_nordic_teal_lightest:
-    value: "hsl(170, 50%, 90%)"
+  # Previous name: color_nordic_teal:
+  color_nordic_teal_300:
+    value: "hsl({!nordic_teal_hs}, 30%)"
     category: color_group_2
 
+  # Nordic Teal - Shades for backgrounds
+  color_nordic_teal_650:
+    value: "hsl(181, 25%, 65%)"
+    category: color_group_2
+  color_nordic_teal_750:
+    value: "hsl(181, 30%, 75%)"
+    category: color_group_2
+  color_nordic_teal_850:
+    value: "hsl(181, 40%, 85%)"
+    category: color_group_2
+  color_nordic_teal_900:
+    value: "hsl(181, 45%, 90%)"
+    category: color_group_2
+  color_nordic_teal_950:
+    value: "hsl(181, 50%, 95%)"
+    category: color_group_2
+
+
+  #-------
   # Clear Blue
-  color_clear_blue:
-    value: "hsl(201, 87%, 35%)"
+  #-------
+
+  # Clear Blue - KEY colours with darker and lighter shades
+  color_clear_blue_250:
+    value: "hsl({!clear_blue_hs}, 25%)"
     category: color_group_3
-  color_clear_blue_dark:
-    value: "hsl(201, 87%, 25%)"
+  color_clear_blue_450:
+    value: "hsl({!clear_blue_hs}, 45%)"
     category: color_group_3
-  color_clear_purple:
+  # KEY colour
+  color_clear_blue_350:
+    value: "hsl({!clear_blue_hs}, 35%)"
+    category: color_group_3
+
+  # Clear Blue - Shades for backgrounds
+  color_clear_blue_900:
+    value: "hsl({!clear_blue_hs}, 90%)"
+    category: color_group_3
+  color_clear_blue_930:
+    value: "hsl({!clear_blue_hs}, 93%)"
+    category: color_group_3
+  color_clear_blue_960:
+    value: "hsl({!clear_blue_hs}, 96%)"
+    category: color_group_3
+
+  #-------
+  # Clear Purple
+  #-------
+  color_clear_purple_350:
     value: "hsl(270, 54%, 35%)"
     category: color_group_3
-  color_clear_blue_light:
-    value: "hsl(201, 86%, 80%)"
-    category: color_group_3
-  color_clear_blue_lightest:
-    value: "hsl(201, 87%, 93%)"
-    category: color_group_3
 
+  #-------
   # Calm Grey
-  color_calm_grey:
-    value: "hsl(202, 10%, 63%)"
+  #-------
+
+  # Calm Grey - KEY colours with darker and lighter shades
+
+  color_calm_grey_150:
+    value: "hsl({!calm_grey_hs}, 15%)"
     category: color_group_4
-  color_calm_grey_dark:
-    value: "hsl(203, 10%, 45%)"
+  color_calm_grey_300:
+    value: "hsl({!calm_grey_hs}, 30%)"
     category: color_group_4
-  color_calm_grey_darker:
-    value: "hsl(204, 10%, 30%)"
+  color_calm_grey_450:
+    value: "hsl({!calm_grey_hs}, 45%)"
     category: color_group_4
-  color_calm_grey_darkest:
-    value: "hsl(202, 11%, 15%)"
+  # KEY colour
+  color_calm_grey_630:
+    value: "hsl({!calm_grey_hs}, 63%)"
     category: color_group_4
-  color_calm_grey_light:
-    value: "hsl(202, 10%, 79%)"
+  color_calm_grey_800:
+    value: "hsl({!calm_grey_hs}, 80%)"
     category: color_group_4
-  color_calm_grey_lighter:
-    value: "hsl(203, 10%, 89%)"
+  color_calm_grey_900:
+    value: "hsl({!calm_grey_hs}, 90%)"
     category: color_group_4
-  color_calm_grey_lightest:
-    value: "hsl(210, 10%, 96%)"
+  color_calm_grey_960:
+    value: "hsl({!calm_grey_hs}, 96%)"
     category: color_group_4
 
   # Happy Green

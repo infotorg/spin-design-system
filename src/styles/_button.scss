@@ -1,11 +1,11 @@
-$color-btn-primary-hover: $color-nordic-teal-dark;
-$color-btn-primary-disabled: $color-calm-grey-light;
+$color-btn-primary-hover: $color-nordic-teal-200;
+$color-btn-primary-disabled: $color-calm-grey-800;
 $color-btn-primary-pressed: $secondary;
 
 $color-btn-secondary: #ffffff;
-$color-btn-secondary-hover: $color_clear_blue_lightest;
-$color-btn-secondary-disabled: $color_calm_grey_light;
-$color-btn-secondary-pressed: $color_navy-blue;
+$color-btn-secondary-hover: $color-clear-blue-930;
+$color-btn-secondary-disabled: $color-calm-grey-800;
+$color-btn-secondary-pressed: $color-navy-blue;
 
 $color-btn-danger: #9a3333;
 $color-btn-danger-hover: #7D1A1A;
@@ -203,7 +203,7 @@ button {
 
 // Overwriting styles for b-overlay
 .bg-light {
-  background-color: $color-calm-grey-lighter !important;
+  background-color: $color-calm-grey-900 !important;
 }
 
 .position-absolute {

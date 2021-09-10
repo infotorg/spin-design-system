@@ -7,8 +7,8 @@
 // Also see Bootstrap theming documentation: https://getbootstrap.com/docs/4.5/getting-started/theming/
 
 // Color system
-$primary: $color-nordic-teal;
-$secondary: $color_navy_blue;
+$primary: $color-nordic-teal-300;
+$secondary: $color-navy-blue;
 $success: $color-happy-green;
 $info: $color-info-blue;
 $warning: $color-warning-yellow;
@@ -24,9 +24,9 @@ $body-bg: #e0e4e6;
 // Links
 //
 // Style anchor elements.
-$link-color: $color-clear-blue;
+$link-color: $color-clear-blue-350;
 $link-decoration: underline;
-$link-hover-color: $color-clear-blue-dark;
+$link-hover-color: $color-clear-blue-350;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 //$emphasized-link-hover-darken-percentage: 15% !default;
 
