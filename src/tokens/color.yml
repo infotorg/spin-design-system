@@ -14,6 +14,10 @@ aliases:
     value: "201, 87%"
   calm_grey_hs:
     value: "202, 10%"
+  danger_red_hs:
+    value: "360, 50%"
+  warning_yellow_hs:
+    value: "43, 100%"
   white:
     value: "hsl(0, 0%, 100%)"
   navy_blue:
@@ -67,7 +71,6 @@ props:
     value: "hsl(181, 50%, 95%)"
     category: color_group_2
 
-
   #-------
   # Clear Blue
   #-------
@@ -107,7 +110,6 @@ props:
   #-------
 
   # Calm Grey - KEY colours with darker and lighter shades
-
   color_calm_grey_150:
     value: "hsl({!calm_grey_hs}, 15%)"
     category: color_group_4
@@ -131,37 +133,68 @@ props:
     value: "hsl({!calm_grey_hs}, 96%)"
     category: color_group_4
 
+  #-------
   # Happy Green
-  color_happy_green:
+  #-------
+
+  # Happy Green - KEY colours with darker and lighter shades
+  color_happy_green_350:
     value: "hsl(110, 50%, 40%)"
     category: color_group_5
-  color_happy_green_lightest:
-    value: "hsl(120, 77%, 95%)"
+  # Happy Green - Shades for backgrounds
+  color_happy_green_950:
+    value: "hsl(110, 77%, 95%)"
     category: color_group_5
 
-  # Warning Yellow
-  color_warning_yellow:
-    value: "hsl(43, 100%, 48%)"
-    category: color_group_6
-  color_warning_yellow_lightest:
-    value: "hsl(43, 100%, 92%)"
-    category: color_group_6
-
-  # Error Red
-  color_error_red:
-    value: "hsl(353, 65%, 47%)"
-    category: color_group_7
-  color_error_red_lightest:
-    value: "hsl(351, 100%, 96%)"
-    category: color_group_7
-
+  #-------
   # Info Blue
-  color_info_blue:
-    value: "hsl(210, 53%, 47%)"
-    category: color_group_7
-  color_info_blue_lightest:
+  #-------
+  color_info_blue_350:
+    value: "hsl(210, 55%, 50%)"
+    category: color_group_6
+  # Info Blue - Shades for backgrounds
+  color_info_blue_950:
     value: "hsl(210, 100%, 95%)"
+    category: color_group_6
+
+  #-------
+  # Warning Yellow
+  #-------
+
+  # Warning Yellow - KEY colours with darker and lighter shades
+  color_warning_yellow_480:
+    value: "hsl({!warning_yellow_hs}, 48%)"
     category: color_group_7
+  # Warning Yellow - Shades for backgrounds
+  color_warning_yellow_920:
+    value: "hsl({!warning_yellow_hs}, 92%)"
+    category: color_group_7
+
+  #-------
+  # Error Red
+  #-------
+
+  # Error Red - KEY colours with darker and lighter shades
+  color_error_red_470:
+    value: "hsl(353, 65%, 47%)"
+    category: color_group_8
+  # Error Red - Shades for backgrounds
+  color_error_red_960:
+    value: "hsl(351, 100%, 96%)"
+    category: color_group_8
+
+  #-------
+  # Danger Red
+  #-------
+
+  # Danger Red - KEY colours with darker and lighter shades
+  color_danger_red_300:
+    value: "hsl({!danger_red_hs}, 30%)"
+    category: color_group_9
+  # KEY colour
+  color_danger_red_400:
+    value: "hsl({!danger_red_hs}, 40%)"
+    category: color_group_9
 
 global:
   type: color
