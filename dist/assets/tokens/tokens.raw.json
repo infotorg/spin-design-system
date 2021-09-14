@@ -15,9 +15,6 @@
     "warning_yellow_hs": {
       "value": "43, 100%"
     },
-    "white": {
-      "value": "hsl(0, 0%, 100%)"
-    },
     "navy_blue_hs": {
       "value": "201, 87%"
     }
@@ -170,6 +167,13 @@
       "originalValue": "hsl({!navy_blue_hs}, 18%)",
       "name": "secondary"
     },
+    "color_black_0": {
+      "type": "color",
+      "category": "color_group_4",
+      "value": "rgb(0, 0, 0)",
+      "originalValue": "hsl(0, 0%, 0%)",
+      "name": "color_black_0"
+    },
     "color_clear_blue_250": {
       "type": "color",
       "category": "color_group_3",
@@ -267,6 +271,13 @@
       "value": "rgb(222, 242, 253)",
       "originalValue": "hsl({!clear_blue_hs}, 93%)",
       "name": "color_clear_blue_930"
+    },
+    "color_white_100": {
+      "type": "color",
+      "category": "color_group_4",
+      "value": "rgb(255, 255, 255)",
+      "originalValue": "hsl(0, 0%, 100%)",
+      "name": "color_white_100"
     },
     "font_size_xl": {
       "type": "number",
