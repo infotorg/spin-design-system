@@ -18,8 +18,8 @@
     "white": {
       "value": "hsl(0, 0%, 100%)"
     },
-    "navy_blue": {
-      "value": "hsl(201, 87%, 18%)"
+    "navy_blue_hs": {
+      "value": "201, 87%"
     }
   },
   "props": {
@@ -107,13 +107,6 @@
       "originalValue": "hsl(181, 40%, 85%)",
       "name": "color_nordic_teal_850"
     },
-    "color_navy_blue": {
-      "type": "color",
-      "category": "color_group_2",
-      "value": "rgb(6, 58, 86)",
-      "originalValue": "{!navy_blue}",
-      "name": "color_navy_blue"
-    },
     "color_nordic_teal_950": {
       "type": "color",
       "category": "color_group_2",
@@ -149,6 +142,13 @@
       "originalValue": "hsl({!calm_grey_hs}, 15%)",
       "name": "color_calm_grey_150"
     },
+    "color_navy_blue_180": {
+      "type": "color",
+      "category": "color_group_2",
+      "value": "rgb(6, 58, 86)",
+      "originalValue": "hsl({!navy_blue_hs}, 18%)",
+      "name": "color_navy_blue_180"
+    },
     "color_error_red_960": {
       "type": "color",
       "category": "color_group_8",
@@ -167,7 +167,7 @@
       "type": "color",
       "category": "color_group_1",
       "value": "rgb(6, 58, 86)",
-      "originalValue": "{!navy_blue}",
+      "originalValue": "hsl({!navy_blue_hs}, 18%)",
       "name": "secondary"
     },
     "color_clear_blue_250": {

@@ -8,7 +8,7 @@
 
 // Color system
 $primary: $color-nordic-teal-300;
-$secondary: $color-navy-blue;
+$secondary: $color-navy-blue-180;
 $success: $color-happy-green-350;
 $info: $color-info-blue-350;
 $warning: $color-warning-yellow-480;
@@ -35,18 +35,18 @@ $link-hover-color: $color-clear-blue-350;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-size-lg: $font_size_l;
-$font-size-sm: $font_size_s;
+$font-size-lg: $font-size-l;
+$font-size-sm: $font-size-s;
 
 $line-height-base: 1.4;
 
-$h1-font-size: $font_size_h1;
-$h2-font-size: $font_size_h2;
-$h3-font-size: $font_size_h3;
-$h4-font-size: $font_size_h4;
-$h5-font-size: $font_size_h5;
-$h6-font-size: $font_size_h6;
+$h1-font-size: $font-size-h1;
+$h2-font-size: $font-size-h2;
+$h3-font-size: $font-size-h3;
+$h4-font-size: $font-size-h4;
+$h5-font-size: $font-size-h5;
+$h6-font-size: $font-size-h6;
 
 $headings-margin-bottom: 1rem;
-$headings-font-family: $font_heading;
-$headings-color: $color_navy_blue;
+$headings-font-family: $font-heading;
+$headings-color: $color-navy-blue-180;

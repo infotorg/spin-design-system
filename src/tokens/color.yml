@@ -20,19 +20,22 @@ aliases:
     value: "43, 100%"
   white:
     value: "hsl(0, 0%, 100%)"
-  navy_blue:
-    value: "hsl(201, 87%, 18%)"
+  navy_blue_hs:
+    value: "201, 87%"
 props:
   # Primary app color
   primary:
     value: "hsl({!nordic_teal_hs}, 25%)"
     category: color_group_1
   secondary:
-    value: "{!navy_blue}"
+    value: "hsl({!navy_blue_hs}, 18%)"
     category: color_group_1
 
-  color_navy_blue:
-    value: "{!navy_blue}"
+  #-------
+  # Navy Blue
+  #-------
+  color_navy_blue_180:
+    value: "hsl({!navy_blue_hs}, 18%)"
     category: color_group_2
 
   #-------
