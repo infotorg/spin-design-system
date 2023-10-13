@@ -153,6 +153,13 @@
       "originalValue": "hsl(351, 100%, 96%)",
       "name": "color_error_red_960"
     },
+    "color_calm_grey_790": {
+      "type": "color",
+      "category": "color_group_4",
+      "value": "rgb(196, 203, 207)",
+      "originalValue": "hsl({!calm_grey_hs}, 79%)",
+      "name": "color_calm_grey_790"
+    },
     "color_calm_grey_450": {
       "type": "color",
       "category": "color_group_4",
