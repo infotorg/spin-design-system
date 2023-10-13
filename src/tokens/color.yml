@@ -124,6 +124,9 @@ props:
   color_calm_grey_630:
     value: "hsl({!calm_grey_hs}, 63%)"
     category: color_group_4
+  color_calm_grey_790:
+    value: "hsl({!calm_grey_hs}, 79%)"
+    category: color_group_4
   color_calm_grey_800:
     value: "hsl({!calm_grey_hs}, 80%)"
     category: color_group_4
