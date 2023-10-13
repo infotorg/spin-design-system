@@ -55,4 +55,17 @@ After including all necessary files, you have access to tokens and styles.
 which are located in the `node_modules/spin-design-system/dist/assets/tokens/tokens.scss` and `node_modules/spin-design-system/dist/assets/styles/styles.scss` files.
 
 
+## Development
+### Running and testing
+`npm start`
+
+Open the browser at the address http://localhost:6060/
+
+### Building
+`npm run build`
+
+### Publishing
+- Update the version in the `package.json` file.
+- Add your changes to the git repository and create a pull request.
+
 Licensed under the MIT license.
