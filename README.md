@@ -17,7 +17,7 @@ Design Tokens contains:
 //-------
 // Design Tokens from the "SPIN Design System"
 //-------
-@import 'path/to/node_modules/spin-design-system/dist/assets/tokens/tokens';
+@import 'spin-design-system/dist/assets/tokens/tokens';
 ```
 
 ### 2. Override Bootstrap variables 
@@ -26,7 +26,7 @@ Design Tokens contains:
 // Custom Bootstrap variables overrides go first.
 // Setting them up from the "SPIN Design System" tokens
 //-------
-@import 'path/to/node_modules/spin-design-system/dist/assets/styles/bootstrap';
+@import 'spin-design-system/dist/assets/styles/bootstrap';
 ```
 
 ### 3. Import Bootstrap SCSS files
@@ -34,7 +34,7 @@ Design Tokens contains:
 //-------
 // Bootstrap and its default variables
 //-------
-@import 'path/to/node_modules/bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap';
 ```
 
 ### 4. Import Basic styles from the Design System 
@@ -42,12 +42,12 @@ Design Tokens contains:
 //-------
 // Styles from the "SPIN Design System"
 //-------
-@import 'path/to/node_modules/spin-design-system/dist/assets/styles/styles';
+@import 'spin-design-system/dist/assets/styles/styles';
 ```
 
 ### 5. Apply your application styles
 ```scss
-@import 'path/to/your/awesome/styles';
+@import 'path/to/your/awesome/app/styles';
 ```
 
 ## Usage

@@ -14,12 +14,18 @@ aliases:
     value: "201, 87%"
   calm_grey_hs:
     value: "202, 10%"
+  silver_grey_hs:
+    value: "0, 0%"
   danger_red_hs:
     value: "360, 50%"
   warning_yellow_hs:
     value: "43, 100%"
   navy_blue_hs:
     value: "201, 87%"
+  goldenrod_hs:
+    value: "51, 100%"
+  mustard_hs:
+    value: "40, 100%"
 props:
   # Primary app color
   primary:
@@ -114,6 +120,9 @@ props:
   color_calm_grey_150:
     value: "hsl({!calm_grey_hs}, 15%)"
     category: color_group_4
+  color_calm_grey_280:
+    value: "hsl({!calm_grey_hs}, 28%)"
+    category: color_group_4
   color_calm_grey_300:
     value: "hsl({!calm_grey_hs}, 30%)"
     category: color_group_4
@@ -145,28 +154,103 @@ props:
     category: color_group_4
 
   #-------
+  # Silver Grey
+  #-------
+
+  # Light Gray
+  color_silver_grey_800:
+    value: "hsl({!silver_grey_hs}, 80%)"
+    category: color_group_5
+  # Off-White Gray
+  color_silver_grey_970:
+    value: "hsl({!silver_grey_hs}, 97%)"
+    category: color_group_5
+
+  #-------
   # Happy Green
   #-------
 
   # Happy Green - KEY colours with darker and lighter shades
   color_happy_green_350:
     value: "hsl(110, 50%, 40%)"
-    category: color_group_5
+    category: color_group_6
   # Happy Green - Shades for backgrounds
   color_happy_green_950:
     value: "hsl(110, 77%, 95%)"
-    category: color_group_5
+    category: color_group_6
+
+  #-------
+  # Good Green
+  #-------
+
+  # "Seafoam Green", "Mint Green" or "Light Green"
+  color_good_green_430:
+    value: "hsl(148, 41%, 43%)"
+    category: color_group_7
+  # "Pale Aquamarine", "Light Turquoise" or "Mint Blue-Green"
+  color_good_green_910:
+    value: "hsl(150, 32%, 91%)"
+    category: color_group_7
+
+  #-------
+  # Moderate Green
+  #-------
+
+  # Moderate green - KEY colours with darker and lighter shades
+  color_moderate_green_600:
+    value: "hsl(148, 45%, 60%)"
+    category: color_group_8
+  # Good Green - Lighter
+  color_moderate_green_940:
+    value: "hsl(150, 47%, 94%)"
+    category: color_group_8
 
   #-------
   # Info Blue
   #-------
   color_info_blue_350:
     value: "hsl(210, 55%, 50%)"
-    category: color_group_6
+    category: color_group_9
   # Info Blue - Shades for backgrounds
   color_info_blue_950:
     value: "hsl(210, 100%, 95%)"
-    category: color_group_6
+    category: color_group_9
+
+  #-------
+  # Goldenrod
+  #-------
+
+  # Goldenrod 50%
+  color_goldenrod_500:
+    value: "hsl({!goldenrod_hs}, 50%)"
+    category: color_group_10
+
+  #-------
+  # Mustard yellow
+  #-------
+
+  # Mustard 50%
+  color_mustard_450:
+    value: "hsl({!mustard_hs}, 45%)"
+    category: color_group_11
+
+  #-------
+  # Amber
+  #-------
+
+  # Amber 54%
+  color_amber_540:
+    value: "hsl(33, 93%, 54%)"
+    category: color_group_12
+
+  #-------
+  # Salmon
+  #-------
+
+  # Light Salmon 93% (similar to "Blush" or "Pale Peach" )
+  color_salmon_930:
+    value: "hsl(33, 94%, 93%)"
+    category: color_group_13
 
   #-------
   # Warning Yellow
@@ -175,11 +259,30 @@ props:
   # Warning Yellow - KEY colours with darker and lighter shades
   color_warning_yellow_480:
     value: "hsl({!warning_yellow_hs}, 48%)"
-    category: color_group_7
+    category: color_group_14
   # Warning Yellow - Shades for backgrounds
   color_warning_yellow_920:
     value: "hsl({!warning_yellow_hs}, 92%)"
-    category: color_group_7
+    category: color_group_14
+
+
+  #-------
+  # Crimson
+  #-------
+
+  # Crimson
+  color_crimson_540:
+    value: "hsl(3, 86%, 54%)"
+    category: color_group_15
+
+  #-------
+  # Pink
+  #-------
+
+  # Rose Quartz
+  color_rose_quartz_960:
+    value: "hsl(3, 91%, 96%)"
+    category: color_group_16
 
   #-------
   # Error Red
@@ -188,11 +291,11 @@ props:
   # Error Red - KEY colours with darker and lighter shades
   color_error_red_470:
     value: "hsl(353, 65%, 47%)"
-    category: color_group_8
+    category: color_group_17
   # Error Red - Shades for backgrounds
   color_error_red_960:
     value: "hsl(351, 100%, 96%)"
-    category: color_group_8
+    category: color_group_17
 
   #-------
   # Danger Red
@@ -201,11 +304,11 @@ props:
   # Danger Red - KEY colours with darker and lighter shades
   color_danger_red_300:
     value: "hsl({!danger_red_hs}, 30%)"
-    category: color_group_9
+    category: color_group_18
   # KEY colour
   color_danger_red_400:
     value: "hsl({!danger_red_hs}, 40%)"
-    category: color_group_9
+    category: color_group_18
 
 global:
   type: color
