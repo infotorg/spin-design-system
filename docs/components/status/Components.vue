@@ -95,15 +95,9 @@ export default {
       if (this.show === "all") {
         contexts = [
           require.context("@/elements/", true, /\.vue$/),
-          require.context("@/patterns/", true, /\.vue$/),
-          require.context("@/templates/", true, /\.vue$/),
         ]
       } else if (this.show === "elements") {
         contexts = [require.context("@/elements/", true, /\.vue$/)]
-      } else if (this.show === "patterns") {
-        contexts = [require.context("@/patterns/", true, /\.vue$/)]
-      } else if (this.show === "templates") {
-        contexts = [require.context("@/templates/", true, /\.vue$/)]
       }
 
       const components = []
