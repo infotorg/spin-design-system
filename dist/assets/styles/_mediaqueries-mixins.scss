@@ -3,6 +3,10 @@ MEDIA QUERIES MIXINS
 Usage: @include for-phone-only {}
 */
 
+@mixin for-small-phone-landscape-down {
+  @media (max-width: 439.98px) { @content; }
+}
+
 @mixin for-phone-only {
   @media (max-width: 767px) { @content; }
 }
